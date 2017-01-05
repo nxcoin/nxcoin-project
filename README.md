@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # nxcoin-project
 =======
 NXCoin integration/staging tree
 ================================
 
-https://nxcoin.finance/
+http://nextcoin.org/
 
  Copyright (c) 2009 - 2016 Bitcoin Developers
  
@@ -13,7 +12,7 @@ https://nxcoin.finance/
 What is NXCoin?
 ----------------
 
-NXCoin is the implementation of the Zerocoin protocol ( http://zerocoin.org ) guaranteeing true financial anonymity.
+NXCoin is the implementation of the Nextcoin protocol ( http://nextcoin.org ) guaranteeing true financial anonymity.
 
  - 10 minute block targets
  - 21 million total coins
@@ -21,7 +20,7 @@ NXCoin is the implementation of the Zerocoin protocol ( http://zerocoin.org ) gu
  - Retarget using BRNDF every 6 blocks
 
 For more information, as well as an immediately useable, binary version of
-the nxcoin client sofware, see https://github.com/NXCoinOfficial/nxcoin/releases.
+the nxcoin client sofware, see https://github.com/nxcoin/nxcoin-project/releases.
 
 License
 -------
@@ -38,17 +37,13 @@ their feature or bug fix is ready.
 If it is a simple/trivial/non-controversial change, then one of the nxcoin
 development team members simply pulls it.
 
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion (if they haven't already) on the
-[Slack : NXCoin General Channel](https://nxcoinofficial.slack.com). You can get invite from here http://invite.nxcoin.finance:3000/
-
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
 match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/nxcoinofficial/nxcoin/tags) are created
+completely stable. [Tags](https://github.com/nxcoin/nxcoin-project/tags) are created
 regularly to indicate new official, stable release versions of NXCoin.
 
 Testing
@@ -72,6 +67,40 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 Installation
 -------
 
-Please see details in Wiki section
+download wallet for ubuntu & windows 10 linux bash
 
->>>>>>> first commit
+https://github.com/nxcoin/nxcoin-project/releases
+
+install software request (ubuntu&windows linux bash)
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+sudo apt-get install libboost-all-dev
+sudo apt-get install libminiupnpc-dev
+
+create config files for daemon
+mkdir -p ~/.nxcoin
+nano ~/.nxcoin/nxcoin.conf
+
+daemon=1
+rpcuser=user
+rpcpassword=password
+
+run nxcoin-qt
+
+Solo Mining
+click Help > Console
+insert command start mining
+setgenerate true -1 <<use all cpu thread
+setgenerate true 1 <<use 1 cpu thread
+setgenerate false <<stop mining
+
+have fun.
+X
+
+Fix Wallet Not Work.
+sudo apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
+        libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev \
+        libssl-dev libdb++-dev libminiupnpc-dev
