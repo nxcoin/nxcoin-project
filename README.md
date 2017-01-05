@@ -99,9 +99,9 @@ run nxcoin-qt
 Solo Mining
 click Help > Console
 insert command start mining
-setgenerate true -1 <<use all cpu thread
-setgenerate true 1 <<use 1 cpu thread
-setgenerate false <<stop mining
+setgenerate true -1 =use all cpu thread
+setgenerate true 1 =use 1 cpu thread
+setgenerate false =stop mining
 
 For Ubuntu
 install software request (ubuntu&windows linux bash)
@@ -126,9 +126,9 @@ run nxcoin-qt
 Solo Mining
 click Help > Console
 insert command start mining
-setgenerate true -1 <<use all cpu thread
-setgenerate true 1 <<use 1 cpu thread
-setgenerate false <<stop mining
+setgenerate true -1 =use all cpu thread
+setgenerate true 1 =use 1 cpu thread
+setgenerate false =stop mining
 
 have fun.
 X
