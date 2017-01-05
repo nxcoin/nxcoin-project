@@ -71,6 +71,39 @@ download wallet for ubuntu & windows 10 linux bash
 
 https://github.com/nxcoin/nxcoin-project/releases
 
+For windows 10
+
+Install Windows 10 anniversary edition.
+
+Enable Bash for Windows: http://www.omgubuntu.co.uk/2016/08/enable-bash-windows-10-anniversary-update
+
+install software request (ubuntu&windows linux bash)
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
+sudo apt-get install libboost-all-dev
+sudo apt-get install libminiupnpc-dev
+
+create config files for daemon
+mkdir -p ~/.nxcoin
+nano ~/.nxcoin/nxcoin.conf
+
+daemon=1
+rpcuser=user
+rpcpassword=password
+
+run nxcoin-qt
+
+Solo Mining
+click Help > Console
+insert command start mining
+setgenerate true -1 <<use all cpu thread
+setgenerate true 1 <<use 1 cpu thread
+setgenerate false <<stop mining
+
+For Ubuntu
 install software request (ubuntu&windows linux bash)
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:bitcoin/bitcoin
@@ -99,6 +132,7 @@ setgenerate false <<stop mining
 
 have fun.
 X
+
 
 Fix Wallet Not Work.
 sudo apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev \
