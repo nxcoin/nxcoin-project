@@ -7,7 +7,7 @@ http://nextcoin.org/
 
  Copyright (c) 2009 - 2016 Bitcoin Developers
  
- Copyright (c) 2015 - 2016 NXCoin Developers
+ Copyright (c) 2015 - 2017 NXCoin Developers
 
 What is NXCoin?
 ----------------
@@ -16,7 +16,7 @@ NXCoin is the implementation of the Nextcoin protocol ( http://nextcoin.org ) gu
 
  - 10 minute block targets
  - 21 million total coins
- - 50 coins per block
+ - 40 coins per block
  - Retarget using BRNDF every 6 blocks
 
 For more information, as well as an immediately useable, binary version of
