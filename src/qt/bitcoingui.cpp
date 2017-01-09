@@ -305,7 +305,6 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(overviewAction);
     toolbar->addAction(sendCoinsAction);
     toolbar->addAction(receiveCoinsAction);
-    toolbar->addAction(zerocoinAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
 }
