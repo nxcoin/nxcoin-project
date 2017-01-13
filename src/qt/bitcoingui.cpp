@@ -203,7 +203,7 @@ void BitcoinGUI::createActions()
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
 
-    zerocoinAction = new QAction(QIcon(":/icons/nextcoin"), tr("&Nextcoin"), this);
+    zerocoinAction = new QAction(QIcon(":/icons/zerocoin"), tr("&Nextcoin"), this);
     zerocoinAction->setStatusTip(tr("Show the list of public coin that have been minted"));
     zerocoinAction->setToolTip(zerocoinAction->statusTip());
     zerocoinAction->setCheckable(true);
@@ -305,6 +305,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(overviewAction);
     toolbar->addAction(sendCoinsAction);
     toolbar->addAction(receiveCoinsAction);
+//    toolbar->addAction(zerocoinAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
 }
