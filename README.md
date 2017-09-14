@@ -3,7 +3,7 @@
 NXCoin integration/staging tree
 ================================
 
-http://nextcoin.org/
+http://nx-coin.com/
 
  Copyright (c) 2009 - 2016 Bitcoin Developers
  
@@ -12,7 +12,7 @@ http://nextcoin.org/
 What is NXCoin?
 ----------------
 
-NXCoin is the implementation of the Nextcoin protocol ( http://nextcoin.org ) guaranteeing true financial anonymity.
+NXCoin is the implementation of the Nextcoin protocol ( http://nx-coin.com ) guaranteeing true financial anonymity.
 binary version of the nxcoin client sofware, 
 see https://github.com/nxcoin/nxcoin-project/releases.
 
